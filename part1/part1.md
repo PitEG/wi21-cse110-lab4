@@ -20,6 +20,39 @@
   D) `student['Favorite Teacher'].name`
   <br>
   E) `student.courseLoad[0]`
-14. something
-15. hH:w
-16. 
+14. Arithmetic <br>
+  A) `'32'`
+  <br>
+  B) `1`
+  <br>
+  C) `3`
+  <br>
+  D) `3null`
+  <br>
+  E) `4`
+  <br>
+  F) `0` 
+  <br>
+  G) `3undefined`
+  <br>
+  H) `NaN`
+  <br>
+15. Comparison
+  A) `true`
+  <br>
+  B) `false`
+  <br>
+  C) `true`
+  <br>
+  D) `false`
+  <br>
+  E) `false`
+  <br>
+  F) `true`
+  <br>
+16. `===` checks if the two operands are of the same type. `==` checks if they are the same value.
+17. It prints out `'How are you?'`. It will go through each if block in order and the first one of `if (true == 2)` is evaluated to false because they are different values. But, for the second one of `else if(2)`, it is true because any number that isn't 0 or false is true.
+18.  done in part1-question18.js
+19. The function will return the list `[6,8,10]`. The function iterates through each element in the passed `array` argument. It runs the passed `callback` function on each element of the array (in this case its the doSomething function). And, in that `callback` function, it passes another function that doubles the passed number. This essentially creates and returns an array where the corresponding element from the passed array is +2 and then doubled.
+20. done in part1-question20.js 
+21. It will print `1` then `4` then `3` then `2`. `1` is printed first because it is is run with a simple console.log function call. Then `2` will be printed a whole second later so it will appear last. `3` will be printed after `4` because it is an asynchronise callback and will have some lag despite having a timeout time of 0.
